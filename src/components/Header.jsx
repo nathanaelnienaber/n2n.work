@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header className={`site-header${scrolled ? ' scrolled' : ''}`}>
       <div className="container">
-        <div className="logo">Logo</div>
+        <div className="logo">tmrw.it Consulting</div>
         <button className="menu-toggle" aria-label="Menu">
           <span className="material-icons">menu</span>
         </button>

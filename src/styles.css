@@ -2,7 +2,7 @@
 
 :root {
   --primary: #f7b018;
-  --primary-variant: #fbcf77;
+  --primary-variant: #f7b018e4;
   --secondary: #152eef;
   --background: #f7f9fb;
   --surface: #ffffff;
@@ -98,7 +98,7 @@ ul {
 }
 
 .btn.outline:hover {
-  background: rgba(254, 254, 254, 0.75);
+  background: rgba(5, 5, 5, 0.02);
 }
 
 /* Header */
