@@ -189,7 +189,7 @@ header.hero {
   padding: 10% 5%;
   padding-left: calc(5% + var(--spacing-unit) * 2);
   padding-top: calc(10% + 64px);
-  background-image: radial-gradient(rgba(252, 251, 251, 0.1), rgba(17, 17, 17, 0.5)), url('/hero-02.jpg');
+  background-image: radial-gradient(rgba(252, 251, 251, 0.1), rgba(17, 17, 17, 0.5)), url('/hero.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
