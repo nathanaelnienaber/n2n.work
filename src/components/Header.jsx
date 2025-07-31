@@ -1,6 +1,9 @@
-import { useEffect, useState } from 'react';
+
+import { useState, useEffect } from 'react';
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {

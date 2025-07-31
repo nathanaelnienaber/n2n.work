@@ -112,13 +112,14 @@ ul {
   z-index: 1000;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
   color: #fff;
+
 }
 
 .site-header.scrolled {
   background-color: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: #000;
+
 }
 
 .site-header .container {
