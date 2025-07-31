@@ -92,13 +92,13 @@ ul {
 }
 
 .btn.outline {
-  background-color: rgba(247, 176, 24, 0.15);
+  background-color: rgba(255, 255, 255, 0);
   color: var(--primary);
   border: 1px solid var(--primary);
 }
 
 .btn.outline:hover {
-  background: rgba(5, 5, 5, 0.02);
+  background: rgba(0, 0, 0, 0.194);
 }
 
 /* Header */
@@ -116,9 +116,10 @@ ul {
 }
 
 .site-header.scrolled {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.177);
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #000000;
 
 }
 
@@ -140,11 +141,11 @@ ul {
   position: absolute;
   right: 0;
   top: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: var(--surface);
   box-shadow: var(--elevation-1);
   border-radius: var(--border-radius);
   padding: calc(var(--spacing-unit) * 2);
-  color: #fff;
+  color: var(--on-surface); 
 }
 
 .site-header.scrolled nav {
