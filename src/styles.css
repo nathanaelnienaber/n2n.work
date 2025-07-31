@@ -110,13 +110,16 @@ ul {
   left: 0;
   width: 100%;
   z-index: 1000;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  color: #fff;
+
 }
 
 .site-header.scrolled {
   background-color: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .site-header .container {
@@ -137,13 +140,20 @@ ul {
   position: absolute;
   right: 0;
   top: 100%;
-  background-color: var(--surface);
+  background-color: rgba(0, 0, 0, 0.7);
   box-shadow: var(--elevation-1);
   border-radius: var(--border-radius);
   padding: calc(var(--spacing-unit) * 2);
+  color: #fff;
 }
 
-.site-header nav.open {
+.site-header.scrolled nav {
+  background-color: var(--surface);
+  color: var(--on-surface);
+}
+
+.site-header .menu-toggle:hover + nav,
+.site-header nav:hover {
   display: block;
 }
 
@@ -162,13 +172,13 @@ ul {
 
 .site-header nav a {
   font-weight: 500;
-  color: var(--on-surface);
+  color: inherit;
 }
 
 .menu-toggle {
   background: none;
   border: none;
-  color: var(--on-surface);
+  color: inherit;
   font-weight: 500;
   cursor: pointer;
 }
@@ -177,6 +187,7 @@ ul {
 header.hero {
   margin: 0 auto;
   padding: 10% 5%;
+  padding-left: calc(5% + var(--spacing-unit) * 2);
   padding-top: calc(10% + 64px);
   background-image: radial-gradient(rgba(252, 251, 251, 0.1), rgba(17, 17, 17, 0.5)), url('/hero-02.jpg');
   background-size: cover;

@@ -1,7 +1,9 @@
+
 import { useState, useEffect } from 'react';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -17,14 +19,10 @@ export default function Header() {
     <header className={`site-header${scrolled ? ' scrolled' : ''}`}>
       <div className="container">
         <div className="logo">Logo</div>
-        <button
-          className="menu-toggle"
-          aria-expanded={menuOpen}
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          Menu
+        <button className="menu-toggle" aria-label="Menu">
+          <span className="material-icons">menu</span>
         </button>
-        <nav className={menuOpen ? 'open' : ''}>
+        <nav>
           <ul>
             <li><a href="#about">About Me</a></li>
             <li><a href="#contact">Contact Me</a></li>
