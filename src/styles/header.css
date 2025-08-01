@@ -93,10 +93,5 @@
 
 /* Menu toggle when scrolled (changes color) */
 .menu-toggle.scrolled {
-  color: var(--font-color); /* Use your CSS variable or replace with 'red' */
-}
-
-/* Optional: Force icon color change inside the button */
-.menu-toggle.scrolled .material-icons {
-  color: var(--font-color); /* Or hardcode to 'red' */
+  color: var(--font-color); 
 }
