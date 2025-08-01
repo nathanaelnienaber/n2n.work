@@ -128,6 +128,10 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: calc(100% - 20rem);
+  margin-left: 10rem;
+  margin-right: 10rem;
+  max-width: none;
   padding: calc(var(--spacing-unit) * 2) 0;
   position: relative;
 }
