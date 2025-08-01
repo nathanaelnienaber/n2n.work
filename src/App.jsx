@@ -10,7 +10,6 @@ import Who from './components/Who';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import './styles.css';
 
 export default function App() {
   return (

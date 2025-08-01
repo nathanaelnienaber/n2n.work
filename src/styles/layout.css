@@ -1,0 +1,90 @@
+/* Section Styling */
+section {
+  background-color: var(--surface);
+  padding: calc(var(--spacing-unit) * 8) 0;
+}
+
+section:nth-of-type(even) {
+  background-color: var(--background);
+}
+
+section h2 {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.section-content p {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: calc(var(--spacing-unit) * 4);
+  margin-top: calc(var(--spacing-unit) * 4);
+}
+
+.card {
+  background-color: var(--surface);
+  padding: calc(var(--spacing-unit) * 3);
+  border-radius: var(--border-radius);
+  box-shadow: var(--elevation-1);
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.card ul li::before {
+  content: '•';
+  margin-right: calc(var(--spacing-unit));
+  color: var(--primary);
+}
+
+/* Columns */
+.list-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: calc(var(--spacing-unit) * 4);
+  margin-top: calc(var(--spacing-unit) * 4);
+}
+
+.list-columns h3 {
+  font-size: 1.125rem;
+  margin-bottom: calc(var(--spacing-unit) * 1.5);
+}
+
+/* Steps */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: calc(var(--spacing-unit) * 4);
+  margin-top: calc(var(--spacing-unit) * 4);
+}
+
+.step {
+  text-align: left;
+}
+
+.step-number {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: calc(var(--spacing-unit) * 1);
+}
+
+.step-title {
+  font-weight: 500;
+  margin-bottom: calc(var(--spacing-unit) * 0.5);
+}
+
+/* List Items */
+.section-content ul li {
+  margin-bottom: calc(var(--spacing-unit) * 1);
+  color: rgba(0, 0, 0, 0.7);
+}
