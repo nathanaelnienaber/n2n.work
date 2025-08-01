@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     // Listen to window scroll position
@@ -14,6 +15,10 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const toggleMenu = () => {
+    setMenuOpen((open) => !open);
+  };
+
   return (
     // Apply 'scrolled' class to header based on scroll position
     <header className={`site-header${scrolled ? ' scrolled' : ''}`}>
@@ -24,11 +29,12 @@ export default function Header() {
         <button
           className={`menu-toggle${scrolled ? ' scrolled' : ''}`}
           aria-label="Menu"
+          onClick={toggleMenu}
         >
-          <span className="material-icons">menu</span>
+          <span className="material-icons">{menuOpen ? 'close' : 'menu'}</span>
         </button>
 
-        <nav>
+        <nav className={menuOpen ? 'open' : ''}>
           <ul>
             <li><a href="#about">About Me</a></li>
             <li><a href="#contact">Contact Me</a></li>

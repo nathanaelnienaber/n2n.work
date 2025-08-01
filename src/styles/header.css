@@ -56,12 +56,9 @@
   background-color: var(--surface);
 }
 
-.site-header nav:hover {
-  display: block;
-}
 
-/* Show the dropdown when hovering over the menu button */
-.menu-toggle:hover + nav {
+/* Show the dropdown when menu is open */
+.site-header nav.open {
   display: block;
 }
 
