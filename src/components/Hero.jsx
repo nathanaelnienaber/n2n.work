@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <header className="hero">
+    <header className="hero hero-left">
       <div className="container">
         <h1>
           Modern Tech
