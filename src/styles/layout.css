@@ -15,8 +15,6 @@ section h2 {
 
 .section-content p {
   max-width: 680px;
-  margin-left: auto;
-  margin-right: auto;
   color: var(--font-color);
 }
 

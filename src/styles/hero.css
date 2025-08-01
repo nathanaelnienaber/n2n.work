@@ -13,7 +13,6 @@ header.hero {
 header.hero h1 {
   font-size: 4vw;
   color: rgba(255, 255, 255, 1);
-  /* margin-bottom: calc(var(--spacing-unit) * 8); */
 }
 
 header.hero p {
@@ -23,12 +22,9 @@ header.hero p {
   color: rgba(255, 255, 255, 1);
 }
 
-/* Offset hero content 10rem from the left */
 header.hero.hero-left .container {
-  width: calc(100% - 12rem);
-  margin-left: 6rem;
-  margin-right: 6rem;
-  max-width: none;
-  text-align: left;
+  width: 95%;
+  max-width: 90060px;
+  margin: 0 auto;
+  padding: 0 calc(var(--spacing-unit) * 2);
 }
-
