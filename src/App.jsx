@@ -4,6 +4,7 @@ import About from './components/About';
 import Services from './components/Services';
 import FocusAreas from './components/FocusAreas';
 import Process from './components/Process';
+import Me from './components/Me';
 import Why from './components/Why';
 import Who from './components/Who';
 import Pricing from './components/Pricing';
@@ -21,6 +22,7 @@ export default function App() {
         <Services />
         <FocusAreas />
         <Process />
+        <Me />
         <Why />
         <Who />
         <Pricing />
