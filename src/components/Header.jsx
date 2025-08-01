@@ -1,10 +1,11 @@
-
+// Header.jsx
 import { useState, useEffect } from 'react';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    // Listen to window scroll position
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
@@ -14,12 +15,19 @@ export default function Header() {
   }, []);
 
   return (
+    // Apply 'scrolled' class to header based on scroll position
     <header className={`site-header${scrolled ? ' scrolled' : ''}`}>
       <div className="container">
         <div className="logo">tmrw.it consulting</div>
-        <button className="menu-toggle" aria-label="Menu">
+
+        {/* Apply 'scrolled' class to the menu-toggle button too */}
+        <button
+          className={`menu-toggle${scrolled ? ' scrolled' : ''}`}
+          aria-label="Menu"
+        >
           <span className="material-icons">menu</span>
         </button>
+
         <nav>
           <ul>
             <li><a href="#about">About Me</a></li>
@@ -31,3 +39,4 @@ export default function Header() {
     </header>
   );
 }
+

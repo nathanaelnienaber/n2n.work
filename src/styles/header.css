@@ -1,4 +1,4 @@
-/* Header */
+/* Header base styles */
 .site-header {
   background-color: transparent;
   box-shadow: none;
@@ -8,14 +8,15 @@
   width: 100%;
   z-index: 1000;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
-  color: #fff;
+  color: #fff; /* White text and icons by default */
 }
 
+/* Header when scrolled */
 .site-header.scrolled {
   background-color: rgba(255, 255, 255, 0.177);
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: #000000;
+  color: var(--font-color); /* Assumes this is a darker color */
 }
 
 .site-header .container {
@@ -46,15 +47,13 @@
   box-shadow: var(--elevation-1);
   border-radius: var(--border-radius);
   padding: calc(var(--spacing-unit) * 2);
-  color: var(--on-surface);
 }
 
+/* Nav when header is scrolled (can be the same or slightly different) */
 .site-header.scrolled nav {
   background-color: var(--surface);
-  color: var(--on-surface);
 }
 
-.site-header .menu-toggle:hover + nav,
 .site-header nav:hover {
   display: block;
 }
@@ -74,13 +73,24 @@
 
 .site-header nav a {
   font-weight: 500;
-  color: inherit;
+  color: var(--font-color);
 }
 
+/* Menu toggle button default (white) */
 .menu-toggle {
   background: none;
   border: none;
-  color: inherit;
+  color: white;
   font-weight: 500;
   cursor: pointer;
+}
+
+/* Menu toggle when scrolled (changes color) */
+.menu-toggle.scrolled {
+  color: var(--font-color); /* Use your CSS variable or replace with 'red' */
+}
+
+/* Optional: Force icon color change inside the button */
+.menu-toggle.scrolled .material-icons {
+  color: var(--font-color); /* Or hardcode to 'red' */
 }
