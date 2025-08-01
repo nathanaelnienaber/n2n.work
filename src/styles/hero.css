@@ -12,6 +12,7 @@ header.hero {
 
 header.hero h1 {
   font-size: 4vw;
+  color: rgba(255, 255, 255, 1);
   /* margin-bottom: calc(var(--spacing-unit) * 8); */
 }
 

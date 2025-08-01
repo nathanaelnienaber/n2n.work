@@ -3,6 +3,6 @@ footer {
   text-align: center;
   padding: calc(var(--spacing-unit) * 6) 0;
   font-size: 0.75rem;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--font-color);
   background-color: var(--surface);
 }
