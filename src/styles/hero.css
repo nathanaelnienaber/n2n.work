@@ -1,6 +1,6 @@
 /* Hero Section */
 header.hero {
-  margin: 0 auto;
+  margin: 10 auto;
   padding: calc(10% + 64px) 0 10%;
   background-image: radial-gradient(rgba(252, 251, 251, 0.1), rgba(17, 17, 17, 0.5)), url('/hero.jpg');
   background-size: cover;
@@ -12,7 +12,7 @@ header.hero {
 
 header.hero h1 {
   font-size: 4vw;
-  margin-bottom: calc(var(--spacing-unit) * 8);
+  /* margin-bottom: calc(var(--spacing-unit) * 8); */
 }
 
 header.hero p {
@@ -24,8 +24,10 @@ header.hero p {
 
 /* Offset hero content 10rem from the left */
 header.hero.hero-left .container {
-  width: calc(100% - 10rem);
-  margin-left: 10rem;
+  width: calc(100% - 12rem);
+  margin-left: 6rem;
+  margin-right: 6rem;
   max-width: none;
   text-align: left;
 }
+

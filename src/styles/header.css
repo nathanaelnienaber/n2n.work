@@ -22,11 +22,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: calc(100% - 20rem);
-  margin-left: 10rem;
-  margin-right: 10rem;
+  width: calc(100% - 12rem);
+  margin-left: 6rem;
+  margin-right: 6rem;
   max-width: none;
-  padding: calc(var(--spacing-unit) * 2) 0;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
   position: relative;
 }
 
