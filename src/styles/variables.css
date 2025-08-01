@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+:root {
+  --primary: #f7b018;
+  --primary-variant: #f7b018e4;
+  --secondary: #152eef;
+  --background: #f7f9fb;
+  --surface: #ffffff;
+  --on-primary: #ffffff;
+  --on-surface: #000000;
+  --border-radius: 4px;
+  --spacing-unit: 8px;
+  --elevation-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}

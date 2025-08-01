@@ -1,0 +1,23 @@
+/* Hero Section */
+header.hero {
+  margin: 0 auto;
+  padding: calc(10% + 64px) 0 10%;
+  background-image: radial-gradient(rgba(252, 251, 251, 0.1), rgba(17, 17, 17, 0.5)), url('/hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff;
+}
+
+header.hero h1 {
+  font-size: 4vw;
+  margin-bottom: calc(var(--spacing-unit) * 8);
+}
+
+header.hero p {
+  font-size: 1.5rem;
+  margin-bottom: calc(var(--spacing-unit) * 6);
+  max-width: 720px;
+  color: rgba(255, 255, 255, 1);
+}
