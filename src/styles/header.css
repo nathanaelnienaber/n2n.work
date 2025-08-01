@@ -41,13 +41,14 @@
 
 .site-header nav {
   display: none;
-  position: absolute;
+  position: fixed; /* ← changed from absolute */
   right: 0;
-  top: 100%;
+  top: calc(var(--header-height, 70px)); /* or top: 100% if the header height is known */
   background-color: var(--surface);
   box-shadow: var(--elevation-1);
   border-radius: var(--border-radius);
   padding: calc(var(--spacing-unit) * 2);
+  z-index: 1001; /* higher than the header */
 }
 
 /* Nav when header is scrolled (can be the same or slightly different) */
