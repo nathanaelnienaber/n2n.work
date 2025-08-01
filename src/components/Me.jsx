@@ -1,7 +1,7 @@
 export default function Me() {
   return (
     <section id="me">
-      <div className="container">
+      <div className="container section-content">
         <img
           src="/profile.png"
           alt="Nathanael Nienaber"

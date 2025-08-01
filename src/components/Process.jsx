@@ -1,7 +1,7 @@
 export default function Process() {
   return (
     <section id="process">
-      <div className="container">
+      <div className="container section-content">
         <h2>How It Works</h2>
         <div className="steps">
           {["Discover", "Diagnose", "Design", "Deliver"].map((step, index) => (
