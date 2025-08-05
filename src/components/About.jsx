@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="about">
       <div className="container section-content">
-        <h2>You’ve Built a Business That Lasts. Now Let’s Make It Easy to Run.</h2>
+        <h2>You’ve Built a Business. Now Let’s Make It Easy to Run.</h2>
         <p>Your business has stood the test of time — but behind the scenes, things might feel clunky:</p>  
         <ul className="list-disc pl-6">
             <li>Manual processes</li>
