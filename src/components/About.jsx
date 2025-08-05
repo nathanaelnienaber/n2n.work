@@ -4,7 +4,7 @@ export default function About() {
       <div className="container section-content">
         <h2>You’ve Built a Business. Now Let’s Make It Easy to Run.</h2>
         <p>Your business has stood the test of time — but behind the scenes, things might feel clunky:</p>  
-        <ul className="list-disc pl-6">
+        <ul className="list-disc">
             <li>Manual processes</li>
             <li>Overlapping tools</li>
             <li>Teams working around systems instead of with them</li>
