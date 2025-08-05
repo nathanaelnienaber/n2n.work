@@ -39,6 +39,12 @@ ul {
   padding: 0;
 }
 
+/* Utility class to display disc bullets with left padding */
+ul.list-disc {
+  list-style-type: disc;
+  padding-left: calc(var(--spacing-unit) * 3);
+}
+
 .container {
   width: 90%;
   max-width: 960px;
