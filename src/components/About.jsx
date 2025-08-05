@@ -8,7 +8,7 @@ export default function About() {
             <li>Manual processes</li>
             <li>Overlapping tools</li>
             <li>Teams working around systems instead of with them</li>
-            <li>Your tech clutter worrys you</li>
+            <li>Your tech clutter worries you</li>
           </ul>
         <p>You’re not looking to “blow it all up.” You just want things to work better.
 That’s where I come in.</p>
