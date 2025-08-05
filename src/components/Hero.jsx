@@ -10,13 +10,21 @@ export default function Hero() {
           Same Great Business
         </h1>
         <p>
-          Helping legacy companies update their systems, technology, and
-          operations — with respect for what’s already working.
+          Helping companies modernize systems and operations — without disrupting what’s already working.
         </p>
-        <div className="buttons">
-          <button className="btn primary">Let’s Talk</button>
-          <button className="btn outline">Book a Discovery Call</button>
-        </div>
+      <div className="buttons">
+        <a
+          href="mailto:hello@tmrw.it?subject=Some20%Questions%20%&body=Hi%20Nathanael"
+          className="btn primary"
+        >
+          Let’s Talk
+        </a>
+        <a 
+          href="https://cal.com/nathanaelnienaber" target="_blank" rel="noopener noreferrer">
+          <button className="btn outline">Book a Free Discovery Call</button>
+        </a>
+      </div>
+
       </div>
     </header>
   );

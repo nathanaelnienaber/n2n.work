@@ -36,8 +36,8 @@ export default function Header() {
 
         <nav className={menuOpen ? 'open' : ''}>
           <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#process">How it works</a></li>
+            <li><a href="#me">About Me</a></li>
             <li><a href="#pricing">Pricing</a></li>
           </ul>
         </nav>

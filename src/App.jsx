@@ -6,7 +6,6 @@ import FocusAreas from './components/FocusAreas';
 import Process from './components/Process';
 import Me from './components/Me';
 import Why from './components/Why';
-import Who from './components/Who';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -23,7 +22,6 @@ export default function App() {
         <Process />
         <Me />
         <Why />
-        <Who />
         <Pricing />
         <Contact />
       </main>

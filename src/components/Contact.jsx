@@ -2,12 +2,19 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <h2>Let’s Get to Work</h2>
-        <p>Your business is already strong. Let’s make it simpler, smarter, and more future-ready — one step at a time.</p>
+        <h2>Let’s Make Your Business Simpler, Smarter, and More Scalable</h2>
+        <p>Already strong? Let’s make it stronger — without overengineering it.</p>
         <br /><br />
         <div className="buttons">
-          <button className="btn primary">Book a Free Discovery Call</button>
-          <button className="btn outline">Ask Me Anything</button>
+          <a 
+            href="https://cal.com/nathanaelnienaber" target="_blank" rel="noopener noreferrer">
+            <button className="btn primary">Book a Free Discovery Call</button>
+          </a>
+        
+          <a
+            href="mailto:hello@tmrw.it?subject=Some20%Questions%20%&body=Hi%20Nathanael"
+            className="btn outline">Let’s Talk
+          </a>
         </div>
       </div>
     </section>
