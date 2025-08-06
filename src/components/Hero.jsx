@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
       <div className="buttons">
         <a
-          href="mailto:hello@tmrw.it?subject=Some20%Questions%20%&body=Hi%20Nathanael"
+          href="mailto:hello@n2n.work?subject=Some20%Questions%20%&body=Hi%20Nathanael"
           className="btn primary"
         >
           Let’s Talk
