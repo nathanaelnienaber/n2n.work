@@ -23,7 +23,7 @@ export default function Header() {
     // Apply 'scrolled' class to header based on scroll position
     <header className={`site-header${scrolled ? ' scrolled' : ''}`}>
       <div className="container">
-        <div className="logo">tmrw.it consulting</div>
+        <div className="logo">n2n.work consulting</div>
 
         {/* Apply 'scrolled' class to the menu-toggle button too */}
         <button
