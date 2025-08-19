@@ -6,7 +6,7 @@ export default function Pricing() {
         <p>Every client is different, but here are some typical engagement models:</p>
         <br></br>
           <ul>
-            <li>Hourly Advisory: Starting at $260/hr</li>
+            <li>Hourly Advisory: Starting at $275/hr</li>
             <li>Project-Based System Overhaul: From $15,000+</li>
             <li>Ongoing Support: Monthly retainers starting at $5,000</li>
           </ul>
