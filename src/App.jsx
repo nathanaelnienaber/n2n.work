@@ -7,6 +7,7 @@ import Process from './components/Process';
 import Me from './components/Me';
 import Why from './components/Why';
 import Pricing from './components/Pricing';
+import Faq from './components/Faq';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -23,6 +24,7 @@ export default function App() {
         <Me />
         <Why />
         <Pricing />
+        <Faq />
         <Contact />
       </main>
       <Footer />

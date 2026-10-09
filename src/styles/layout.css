@@ -86,3 +86,20 @@ section h2 {
   margin-bottom: calc(var(--spacing-unit) * 1);
   color: var(--font-color);
 }
+
+/* FAQ */
+.faq-list {
+  display: grid;
+  gap: calc(var(--spacing-unit) * 4);
+  margin-top: calc(var(--spacing-unit) * 4);
+}
+
+.faq-item h3 {
+  font-size: 1.125rem;
+  margin-bottom: calc(var(--spacing-unit) * 1);
+}
+
+.faq-item p {
+  max-width: 680px;
+  color: var(--font-color);
+}

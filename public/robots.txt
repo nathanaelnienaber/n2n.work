@@ -1,0 +1,34 @@
+# n2n.work robots.txt
+# Default: allow all crawlers across the entire site.
+User-agent: *
+Allow: /
+
+# OpenAI web crawler used to train models.
+User-agent: GPTBot
+Allow: /
+
+# OpenAI search crawler used for ChatGPT search results.
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI user triggered fetcher for ChatGPT browsing.
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic crawler used to train Claude models.
+User-agent: ClaudeBot
+Allow: /
+
+# Anthropic user triggered fetcher for Claude browsing.
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI crawler used for search and answers.
+User-agent: PerplexityBot
+Allow: /
+
+# Google crawler used for Gemini and AI features in Search.
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://n2n.work/sitemap.xml
